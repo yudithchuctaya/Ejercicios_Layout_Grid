@@ -1,0 +1,41 @@
+*{
+    outline: 2px solid blue; 
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px  auto;
+}
+.row:before , .row:after{
+    content: "";
+    display:table;
+}
+.row:after{
+    clear: both;
+}
+.row{
+       padding:10px
+}
+[class*="colum-"]{
+    min-height: 7px;
+    padding: 12px;
+    float: left;
+    
+}
+.colum-1{
+    width: 92%;
+    height: 400px;
+    background:  red;
+    outline: 2px solid black;
+    margin:40px;
+}
+.colum-2{
+    width: 30%;
+    height: 200px;
+    background:  red;
+    outline: 2px solid black;
+    margin:40px;
+}
