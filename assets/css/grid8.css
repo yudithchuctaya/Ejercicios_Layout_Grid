@@ -1,0 +1,50 @@
+*{
+    /*outline: 2px solid blue;*/ 
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px  auto;
+}
+.row:before , .row:after{
+    content: "";
+    display:table;
+}
+.row:after{
+    clear: both;
+}
+.row{
+       padding:10px
+}
+[class*="colum-"]{
+    min-height: 7px;
+    padding: 12px;
+    float: left;
+    border:  10px solid white;
+    
+}
+.colum-1{
+    width: 33.33%;
+    height: 550px;
+    
+}
+.colum-2{
+    width: 33.33%;
+    height: 550px;
+  
+}
+.colum-3{
+    width:33.33%;
+    height: 550px;  
+}
+.colum-4{
+    width: 66.66%;
+    height: 300px;
+}
+.colum-5{
+    width: 33.33%;
+    height: 300px;
+}

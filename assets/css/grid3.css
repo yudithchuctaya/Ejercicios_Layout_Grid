@@ -1,5 +1,5 @@
 *{
-    outline: 2px solid blue; 
+    /*outline: 2px solid blue;*/ 
     box-sizing: border-box;
     margin:0;
     padding: 0;
@@ -22,27 +22,25 @@
 [class*="colum-"]{
     min-height: 7px;
     padding: 12px;
-    float: left;
+    float: right;
+    border:  8px solid white;
     
 }
 .colum-1{
-    width: 60%;
+    width: 33.33%;
     height: 400px;
-    background:  red;
-    outline: 2px solid black;
-    margin:40px;
+ 
 }
 .colum-2{
-    width: 30%;
-    height: 200px;
-    background:  red;
-    outline: 2px solid black;
-    margin:40px;
+   width: 66.66%;
+    height: 400px;
+   
+   
 }
 .colum-3{
-    width: 30%;
-    height: 200px;
-    background:  red;
-    outline: 2px solid black;
-    margin:40px;
+    width: 33.33%;
+    height: 400px;
+  margin-top: 40%;
+   
 }
+ 

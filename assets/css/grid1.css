@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid yellow; 
+    /*outline: 1px solid blue; */
     box-sizing: border-box;
     margin:0;
     padding: 0;
@@ -19,63 +19,9 @@
 [class*="colum-"]{
     min-height: 7px;
     padding: 12px;
-    height: 190px;
+    height: 220px;
+    width: 33.33%;
     float: left;
-    
-}
-.colum-1{
-    width: 30%;
-    background:  red;
-    outline: 2px solid black;
-    margin:20px;
-}
-.colum-2{
-    width: 30%;
-
-    background:  red;
-    outline: 2px solid black;
-    margin:20px;
-}
-.colum-3{
-    width: 30%;
-    background:  red;
-    outline: 2px solid black;
-    margin:20px;
-}
-.colum-4{
-    width: 30%;
-    background:  red;
-    outline: 2px solid black;
-    margin:20px;
-}
-.colum-5{
-    width: 30%;
-    background:  red;
-    outline: 2px solid black;
-    margin:20px;
-}
-.colum-6{
-    width: 30%;
-    background:  red;
-    outline: 2px solid black;
-    margin:20px;
-}
-.colum-7{
-    width: 30%;
-    background:  red;
-    outline: 2px solid black;
-    margin:20px;
-}
-.colum-8{
-    width: 30%;
-    background:  red;
-    outline: 2px solid black;
-    margin:20px;
-}
-.colum-9{
-    width: 30%;
-    background:  red;
-    outline: 2px solid black;
-    margin:20px;
+    border: 2px solid white;
 }
 

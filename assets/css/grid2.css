@@ -1,5 +1,5 @@
 *{
-    outline: 2px solid blue; 
+   /* outline: 2px solid blue; */
     box-sizing: border-box;
     margin:0;
     padding: 0;
@@ -23,19 +23,15 @@
     min-height: 7px;
     padding: 12px;
     float: left;
+    border:  4px solid white;
     
 }
 .colum-1{
-    width: 92%;
+    width: 100%;
     height: 400px;
-    background:  red;
-    outline: 2px solid black;
-    margin:40px;
 }
 .colum-2{
-    width: 30%;
-    height: 200px;
-    background:  red;
-    outline: 2px solid black;
-    margin:40px;
-}
+    width: 33.3333%;
+    height: 220px;
+    margin-top: 4%;
+   }
